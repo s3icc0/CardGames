@@ -1,0 +1,36 @@
+balíček karet:
+    -   balíček 32 karet 7, 8, 9, 10, J, Q, K, A
+    -   hodnota + unicode tvar
+        https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+
+hráči:
+    -   počet hráčů
+
+HRA:
+    1) balíček karet se zamíchá
+    2) balíček karet se sejme
+    3) rozdá se celkem 4 karty po dvojicích každému hráči dle pořadí
+    4) jedna karta se umístí jako odkládací
+        -   pokud je tato karta dáma, je potřeba určit barvu dle spodní karty
+         balíčku, pokud i tato je dáma, pokračuje se dokud není známa nová barva
+
+
+
+
+
+
+
+KARRY UNICODE
+print(u"\U0001F0A0") - back
+
+print(u"\U00002660", u"\U00002665", u"\U00002666", u"\U00002663")
+print(u"\U00002664", u"\U00002661", u"\U00002662", u"\U00002667")
+
+print(u"\U0001F0A7", u"\U0001F0B7", u"\U0001F0C7", u"\U0001F0D7")
+print(u"\U0001F0A8", u"\U0001F0B8", u"\U0001F0C8", u"\U0001F0D8")
+print(u"\U0001F0A9", u"\U0001F0B9", u"\U0001F0C9", u"\U0001F0D9")
+print(u"\U0001F0AA", u"\U0001F0BA", u"\U0001F0CA", u"\U0001F0DA")
+print(u"\U0001F0AB", u"\U0001F0BB", u"\U0001F0CB", u"\U0001F0DB")
+print(u"\U0001F0AC", u"\U0001F0BC", u"\U0001F0CC", u"\U0001F0DC")
+print(u"\U0001F0AD", u"\U0001F0BD", u"\U0001F0CD", u"\U0001F0DD")
+print(u"\U0001F0A1", u"\U0001F0B1", u"\U0001F0C1", u"\U0001F0D1")
